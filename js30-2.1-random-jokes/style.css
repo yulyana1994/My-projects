@@ -1,0 +1,119 @@
+body{
+    background-color: papayawhip;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    border: none;
+    font-size: 25px;
+    padding: 3px;
+    margin: 3px;
+    background: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn:hover{
+    filter: invert(25%) sepia() saturate(100000%) hue-rotate(174deg);
+}
+.btnEn{
+    display: flex;
+    border: none;
+    font-size: 25px;
+    padding: 3px;
+    margin: 3px;
+    background: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btnEn:hover{
+    filter: invert(25%) sepia() saturate(100000%) hue-rotate(174deg);
+}
+.btnRu{
+    display: flex;
+    border: none;
+    font-size: 25px;
+    padding: 3px;
+    margin: 3px;
+    background: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btnRu:hover{
+    filter: invert(25%) sepia() saturate(100000%) hue-rotate(174deg);
+}
+
+main{
+    height: calc(100vh - 120px);
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    
+}
+.chack{
+    margin-bottom: 15px;
+}
+.floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 240px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .floating-button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+  
+.content{
+    margin-top: 15px;
+    color: hsl(210, 22%, 49%);
+    font-size: 1.5rem;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.github{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 20px;
+font-size: 20px;
+}
+.git-name{
+ text-decoration: none;
+}
+.rs-logo{
+    background-image: url(./svg/rs_school_js.svg);
+    width: 135px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.rs-logo:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(50%)
+    contrast(50%);
+}
