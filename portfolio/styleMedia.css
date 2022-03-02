@@ -1,0 +1,85 @@
+@media (max-width: 1440px) {
+    .skills-items {
+      justify-content: space-around;
+    }
+    .container{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header {
+        position: relative;
+        overflow-x: clip;
+    }
+    .nav {
+      position: absolute;
+      right: -620px;
+      width: 620px;
+      height: 100vh;
+      background: rgb(0, 0, 0);
+      top: 0%;
+      transition: 0.5s;
+    }
+    .nav.open {
+       right: 0;
+    }
+    .burger{
+        display: flex;
+        margin-right: 0%;
+        margin-left: 10px;
+    }
+    .switch-lang{
+        margin-right: 0%;
+        margin-left: auto;  
+    }
+    .nav-list{
+        flex-direction: column;
+        padding-top: 134px;
+        padding-left: 127px;
+        font-size: 34.8235px;
+        line-height: 73px;
+        margin: 0%;
+    }
+    .portfolio-buttons{
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 445px;
+        margin: 0 auto;
+    }
+    .portfolio{
+       justify-content: center; 
+    }
+    .video{
+        width: 100%;
+        height: auto;
+    }
+    .price{
+        align-items: center;
+        flex-direction: column;
+    }
+    .price-item{
+        width: 420px;
+    }
+    .contact-form{
+        margin: 0 auto;
+        align-items: center;
+    }
+    .contacts{
+        width: 768px;
+        height: 600px;
+        background-position: center;
+    }
+    .form-field{
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        padding: 28px;
+        line-height: 30px;
+    }
+    .soc-list{
+        margin-top: 20px;
+    }
+  }
